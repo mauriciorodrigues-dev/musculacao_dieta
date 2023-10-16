@@ -47,6 +47,35 @@ header ul li a:hover {
     scale: 1.05;
 }
 
+.full {
+    display: block;
+}
+
+#soul {
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #969696;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    right: 0;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 
 main {
   min-height: 80vh;
@@ -91,4 +120,14 @@ main {
     text-decoration: none;
     color: black;
 
+}
+
+@media screen and (max-width: 500px) {
+    #soul {
+        display: block;
+    }
+
+    .full {
+        display: none;
+    }
 }
