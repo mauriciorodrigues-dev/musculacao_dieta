@@ -87,15 +87,16 @@ main {
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
+    
+    
 
 }
 
 .calendar-training {
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: grid;
     align-items: center;
@@ -103,7 +104,6 @@ main {
     place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 20px;
-    /* border: 1px solid; */
     
 }
 
@@ -126,6 +126,21 @@ main {
     }
 }
 
+.title {
+    text-align: center;
+    margin: 20px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 1px 5px #969696;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #ffffffbe, rgb(0, 217, 255));
+}
+
+.calendario img {
+    width: 200px;
+    background-color: blue;
+}
+
 .mes-card a {
     text-decoration: none;
     color: black;
@@ -143,5 +158,20 @@ main {
 
     .full {
         display: none;
+    }
+
+    .calendar-training {
+        width: 100%;
+        height: 80%;
+    }
+
+    .calendario {
+        display: grid;
+        place-items: center;
+    }
+
+    .calendario img {
+        width: 30%;
+        text-align: center;
     }
 }
