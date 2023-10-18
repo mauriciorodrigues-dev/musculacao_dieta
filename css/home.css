@@ -110,10 +110,10 @@ main {
     
 }
 
-.fa-bars {
+.menu {
     font-size: 30px;
     display: none;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 footer {
@@ -135,7 +135,7 @@ footer {
         display: none;
     }
 
-    .fa-bars {
+    .menu {
         display: block;
     }
 }
