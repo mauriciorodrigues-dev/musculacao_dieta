@@ -114,6 +114,7 @@ main {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    border-bottom: 1px solid #ccc;
 
 }
 
@@ -122,11 +123,9 @@ main {
 }
 
 .clicavel {
-    border: 1px solid #ccc;
     padding: 5px;
-    border-radius: 5px;
-    max-width: 200px;
     text-align: center;
+    margin: 2px 0;
 }
 
 .wrapper-description {
