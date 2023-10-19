@@ -96,6 +96,10 @@ main {
     gap: 30px;
 }
 
+.title-main {
+    margin: 20px 0;
+}
+
 .card-container-training {
     margin: 25px 0;
     width: 100%;
@@ -158,6 +162,17 @@ main {
 
 .card-training img {
     max-width: 50px;
+}
+
+.card-information {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 600px;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    gap: 10px;
 }
 
 
@@ -262,5 +277,9 @@ main {
     .title-main {
         font-size: 12px;
         text-align: center;
+    }
+
+    .card-information {
+        flex-direction: column;
     }
 }
