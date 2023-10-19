@@ -21,6 +21,7 @@ header {
     color: #fff;
     background-color: #000;
     height: 10vh;
+    border-bottom: 1px solid #606B73;
 }
 
 header h1 {
@@ -67,17 +68,17 @@ main {
     justify-content: center;
     max-width: 1200px;
     margin: auto;
-    gap: 20px;
+    gap: 30px;
 }
 
 .title {
-    margin: 20px 0;
+    margin: 5px 0;
     text-align: center;
 
 }
 
 .card-container {
-    margin-top: 30px;
+    margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -124,6 +125,7 @@ main {
     width: 100%;
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 .card-attention img {
@@ -260,6 +262,10 @@ footer {
 
 @media (max-width: 750px) {
 
+    main {
+        gap: 20px;
+    }
+
     .card-container {
         align-items: center;
     }
@@ -279,6 +285,11 @@ footer {
 
     .menu {
         display: block;
+    }
+
+    .card-attention img {
+        width: 50px;
+        margin: 20px;
     }
 
     .nav-list {
