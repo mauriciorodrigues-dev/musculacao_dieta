@@ -85,6 +85,8 @@ main {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    /* border: 1px solid #ccc; */
+    width: 650px;
 
 }
 
@@ -271,6 +273,7 @@ footer {
 
     .card-container {
         align-items: center;
+        width: 100%;
     }
 
     .card-benefits {
