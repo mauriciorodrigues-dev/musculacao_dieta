@@ -298,10 +298,7 @@ footer {
         width: 95%;
     }
 
-    .hamburger {
-        display: block;
-        z-index: 1;
-    }
+   
 
     .card-attention {
         flex-direction: column;
@@ -314,6 +311,11 @@ footer {
     .card-attention img {
         width: 50px;
 
+    }
+
+    .hamburger {
+        display: block;
+        z-index: 1;
     }
 
     .nav-list {
