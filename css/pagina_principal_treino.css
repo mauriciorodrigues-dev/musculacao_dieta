@@ -108,7 +108,7 @@ main {
 .card-container-training {
     margin: 15px 0;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     padding: 10px;
     display: flex;
@@ -209,20 +209,39 @@ main {
     padding: 10px;
     cursor: pointer;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* justify-content: space-between; */
 
 
 }
 
+.hipertrofia-card-label p {
+    margin-left: 40px;
+    display: block;
+}
+
 .hipertrofia-card-label::after {
     content: '+';
+    position: absolute;
+    right: 15px;
+}
+
+.hipertrofia-card-label::before {
+    content: '';
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    background-color: rgb(0, 140, 255);
+    
+
 }
 
 .hipertrofia-informacao-um {
     padding: 0 10px;
     max-height: 0;
     overflow: hidden;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     background-color: #252525;
     transition: max-height 0.3s ease-in-out; /* Adicione esta linha para criar uma transição suave */
   
