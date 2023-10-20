@@ -101,6 +101,10 @@ main {
     text-transform: uppercase;
 }
 
+.title-main h1 {
+    text-align: center;
+}
+
 .card-container-training {
     margin: 15px 0;
     width: 100%;
@@ -144,17 +148,17 @@ main {
     margin: 10px 0;
 }
 
-#iniciante:checked+label+#iniciante-wrapper{
+#iniciante:checked+label+#iniciante-wrapper {
     display: block;
     opacity: 1;
 }
 
-#intermediario:checked+label+#intermediario-wrapper{
+#intermediario:checked+label+#intermediario-wrapper {
     display: block;
     opacity: 1;
 }
 
-#avancado:checked+label+#avancado-wrapper{
+#avancado:checked+label+#avancado-wrapper {
     display: block;
     opacity: 1;
 }
@@ -174,34 +178,75 @@ main {
     gap: 10px;
 }
 
-.card-hipertrofia {
-    max-width: 600px;
-    border: 1px solid;
-    height: 100px;
+.card-information img {
+    width: 100px;
 }
 
+.hipertrofia-container {
+    width: 600px;
+    padding: 10px;
+    /* background-color: #606B73; */
+}
+
+.chk-hipertrofia {
+    display: none;
+}
+
+.card-hipertrofia {
+    width: 600px;
+    /* border: 1px solid #ccc; */
+    /* min-height: 100px; */
+    text-align: justify;
+    text-indent: 10px;
+    /* background-color: #ccc; */
+    /* border-radius: 10px; */
+    /* padding: 10px; */
+}
+
+.hipertrofia-card-label {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
 
 
+}
 
+.hipertrofia-card-label::after {
+    content: '+';
+}
 
+.hipertrofia-informacao-um {
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #252525;
+    transition: max-height 0.3s ease-in-out; /* Adicione esta linha para criar uma transição suave */
+  
+}
 
+#hipertrofia:checked+label+#tipo_hipertrofia {
+    display: block;
+    max-height: 150px;
+    
+}
 
+#miofibrilar:checked+label+#tipo_miofibrilar {
+    display: block;
+    max-height: 150px;
+}
 
+#sarcoplasmatica:checked+label+#tipo_sarcoplasmatica {
+    display: block;
+    max-height: 150px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hipertrofia-informacao-um p {
+    background-color: #252525;
+}
 
 
 @media (max-width: 750px) {
@@ -291,4 +336,13 @@ main {
     .card-training h3 {
         font-size: 12px;
     }
+
+    .hipertrofia-container {
+        width: 100%;
+    }
+
+    .card-hipertrofia {
+        width: 100%;
+    }
+
 }
