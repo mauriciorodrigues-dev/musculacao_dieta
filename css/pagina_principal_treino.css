@@ -225,7 +225,450 @@ main {
 .card-hipertrofia {
     width: 700px;
     text-align: justify;
-    text-indent: 10px;
+    text-indent: 10px;@charset "UTF-8";
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+        background-color: #000;
+    }
+    
+    
+    /* SPAN - CLASSE RED */
+    .red {
+        color: red;
+        text-transform: uppercase;
+        background-color: transparent;
+    }
+    
+    .red-dois {
+        color: red;
+        margin: 10px 0;
+    }
+    /* -------------- */
+    
+    
+    /* TUDO DO CABEÇALHO */
+    header {
+        width: 100vw;
+        padding-inline: 16px;
+        color: #fff;
+        background-color: #000;
+        height: 10vh;
+        border-bottom: 1px solid #606B73;
+    }
+    
+    header h1 {
+        width: 250px;
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    a {
+        font-family: sans-serif;
+        text-decoration: none;
+    }
+    
+    .nav {
+        max-width: 1280px;
+        height: 100%;
+        margin-inline: auto;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-list {
+        display: flex;
+        gap: 32px;
+        list-style: none;
+    }
+    
+    .nav-list a {
+        font-size: 18px;
+        color: #fff;
+        padding-block: 16px;
+    }
+    
+    .hamburger {
+        display: none;
+        border: none;
+        background: none;
+        border-top: 3px solid #fff;
+        cursor: pointer;
+    }
+    
+    .hamburger::after,
+    .hamburger::before {
+        content: " ";
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        margin-top: 5px;
+        position: relative;
+        transition: 0.3s;
+    }
+    /* ------------------*/
+    
+    
+    /* TUDO SOBRE PARTE PRINCIPAL = MAIN */
+    main {
+        display: flex;
+        min-height: 80vh;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        max-width: 1200px;
+        margin: auto;
+        gap: 30px;
+    }
+    
+    
+    /* TODOS AS CLASSES TITLES */
+    .title-main {
+        margin: 10px 0;
+        text-transform: uppercase;
+    }
+    
+    .title-main h1 {
+        text-align: center;
+    }
+    
+    .title-main-um {
+        position: relative;
+        z-index: 0;
+    }
+    
+    .title-main-um .title-h1 {
+        position: absolute;
+        left: 20px;
+        top: 25%;
+        background-color: transparent;
+        width: 50%;
+        z-index: 0;
+    }
+    
+    .title-main-um .title-h1 h1 {
+        background-color: transparent;
+        text-align: center;
+    }
+    /* ------------- */
+    
+    
+    /* TODAS AS IMGS */
+    .img-main img {
+        width: 100%;
+    }
+    
+    .card-training img {
+        max-width: 50px;
+    }
+    
+    .card-information img {
+        width: 100px;
+    }
+    /* -------------- */
+    
+    
+    /* TODOS OS CONTAINERS */
+    
+    .hipertrofia-container {
+        width: 100%;
+        padding: 10px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        /* background-color: #606B73; */
+    }
+    
+    .card-container-training {
+        margin: 15px 0;
+        width: 100%;
+        min-height: 100vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        /* background-color: #0e73bb; */
+    }
+    /* ---------------- */
+    
+    
+    /* TODOS OS CARDS */
+    .card-training {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        border: 1px solid #fff;
+    }
+    
+    .card-information {
+        display: flex;
+        
+        align-items: center;
+        max-width: 700px;
+        padding: 10px;
+        text-align: justify;
+        text-indent: 10px;
+        gap: 10px;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .card-hipertrofia {
+        width: 700px;
+        text-align: justify;
+        text-indent: 10px;
+    }
+    
+    .card-observacao {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 5px;
+        align-items: center;
+    }
+    
+    .condicao {
+        max-width: 700px;
+    }
+    
+    .card-observacao p {
+        margin: 10px 0;
+    }
+    /* ---------------- */
+    
+    
+    /* TODOS OS CARDS LABELS */
+    .hipertrofia-card-label {
+        width: 100%;
+        border: 1px solid #ccc;
+        padding: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+    
+    .hipertrofia-card-label p {
+        margin-left: 40px;
+        display: block;
+    }
+    
+    .hipertrofia-card-label::before {
+        content: '';
+        width: 20px;
+        height: 15px;
+        display: inline-block;
+        background-color: rgb(0, 140, 255);
+    }
+    /* ---------------- */
+    
+    
+    .chk-wrapper {
+        display: none;
+    }
+    
+    .wrapper-description {
+        display: none;
+        border: 1px solid #ccc;
+        padding: 10px;
+        opacity: 0;
+        /* Defina a opacidade inicial como 0 */
+        transition: opacity 0.5s;
+        width: 100%;
+    }
+    
+    .wrapper-description p {
+        margin: 10px 0;
+    }
+    
+    .clicavel {
+        padding: 5px;
+        text-align: center;
+        margin: 2px 0;
+    }
+    
+    #iniciante:checked+label+#iniciante-wrapper {
+        display: block;
+        opacity: 1;
+    }
+    
+    #intermediario:checked+label+#intermediario-wrapper {
+        display: block;
+        opacity: 1;
+    }
+    
+    #avancado:checked+label+#avancado-wrapper {
+        display: block;
+        opacity: 1;
+    }
+    
+    .chk-hipertrofia {
+        display: none;
+    }
+    
+    .hipertrofia-informacao-um {
+        padding: 0 10px;
+        max-height: 0;
+        overflow: hidden;
+        background-color: #252525;
+        transition: max-height 0.5s ease-in-out;
+       
+    }
+    
+    .hipertrofia-informacao-um p {
+        background-color: #252525;
+    }
+    
+    #hipertrofia:checked+label+#tipo_hipertrofia {
+        display: block;
+        max-height: 1000px;
+    }
+    
+    #miofibrilar:checked+label+#tipo_miofibrilar {
+        display: block;
+        max-height: 500px;
+    }
+    
+    #sarcoplasmatica:checked+label+#tipo_sarcoplasmatica {
+        display: block;
+        max-height: 1000px;
+    }
+    
+    
+    
+    @media (max-width: 750px) {
+        .hamburger {
+            display: block;
+            z-index: 1;
+        }
+    
+        .nav-list {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: black;
+            opacity: .88;
+            clip-path: circle(100px at 90% -15%);
+            transition: 1s ease-out;
+    
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+    
+            pointer-events: none;
+        }
+    
+        .nav-list a {
+            font-size: 24px;
+            opacity: 0;
+            background-color: black;
+        }
+    
+        .nav-list li:nth-child(1) a {
+            transition: 0.5s 0.2s;
+        }
+    
+        .nav-list li:nth-child(2) a {
+            transition: 0.5s 0.4s;
+        }
+    
+        .nav-list li:nth-child(3) a {
+            transition: 0.5s 0.6s;
+        }
+    
+        .nav-list li:nth-child(4) a {
+            transition: 0.5s 0.8s;
+        }
+    
+        /* Estilos ativos */
+    
+        .nav.active .nav-list {
+            clip-path: circle(1500px at 90% -15%);
+            pointer-events: all;
+        }
+    
+        .nav.active .nav-list a {
+            opacity: 1;
+        }
+    
+        .nav.active .hamburger {
+            position: fixed;
+            top: 26px;
+            right: 16px;
+            border-top-color: transparent;
+        }
+    
+        .nav.active .hamburger::before {
+            transform: rotate(135deg);
+        }
+    
+        .nav.active .hamburger::after {
+            transform: rotate(-135deg);
+            top: -7px;
+        }
+    
+        .title-main {
+            font-size: 12px;
+            text-align: center;
+        }
+    
+        .card-information {
+            flex-direction: column;
+            font-size: 14px;
+        }
+    
+        .card-training {
+            width: 80%;
+        }
+    
+        .card-training h3 {
+            font-size: 12px;
+        }
+    
+        .card-container-training {
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+        }
+    
+        .hipertrofia-container {
+            width: 100%;
+        }
+    
+        .card-hipertrofia {
+            width: 100%;
+        }
+    
+        .title-h1 {
+            font-size: 12px;
+            left: 0;
+        }
+    
+        .card-observacao {
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            align-items: center;
+            text-align: justify;
+            text-indent: 10px;
+        }
+    
+    }
 }
 
 .hipertrofia-card-label {
