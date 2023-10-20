@@ -356,6 +356,10 @@ main {
         font-size: 12px;
     }
 
+    .card-container-training {
+        flex-direction: row;
+    }
+
     .hipertrofia-container {
         width: 100%;
     }
