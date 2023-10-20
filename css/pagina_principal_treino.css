@@ -8,7 +8,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
     background-color: #000;
-
 }
 
 .red {
@@ -29,15 +28,12 @@ header {
     background-color: #000;
     height: 10vh;
     border-bottom: 1px solid #606B73;
-
-
 }
 
 header h1 {
     width: 250px;
     text-align: center;
     font-size: 2em;
-
 }
 
 a {
@@ -230,7 +226,6 @@ main {
     width: 700px;
     text-align: justify;
     text-indent: 10px;
-
 }
 
 .hipertrofia-card-label {
@@ -274,7 +269,7 @@ main {
 
 #miofibrilar:checked+label+#tipo_miofibrilar {
     display: block;
-    max-height: 1000px;
+    max-height: 500px;
 }
 
 #sarcoplasmatica:checked+label+#tipo_sarcoplasmatica {
@@ -385,6 +380,11 @@ main {
 
     .card-hipertrofia {
         width: 100%;
+    }
+
+    .title-h1 {
+        font-size: 12px;
+        left: 0;
     }
 
 }
