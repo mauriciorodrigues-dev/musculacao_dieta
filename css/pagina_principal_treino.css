@@ -29,7 +29,7 @@ header {
     background-color: #000;
     height: 10vh;
     border-bottom: 1px solid #606B73;
-    
+
 
 }
 
@@ -107,14 +107,40 @@ main {
     text-align: center;
 }
 
+.title-main-um {
+    position: relative;
+}
+
+.title-main-um .title-h1 {
+    position: absolute;
+    left: 20px;
+    top: 25%;
+    background-color: transparent;
+    width: 50%;
+}
+
+.title-main-um .title-h1 h1 {
+    background-color: transparent;
+    text-align: center;
+}
+
+.red {
+    background-color: transparent;
+}
+
+.img-main img {
+    width: 100%;
+}
+
 .card-container-training {
     margin: 15px 0;
     width: 100%;
+    min-height: 100vh;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 40px;
 }
@@ -173,11 +199,12 @@ main {
     display: flex;
     align-items: center;
     flex-direction: row;
-    max-width: 600px;
+    max-width: 700px;
     padding: 10px;
     text-align: justify;
     text-indent: 10px;
     gap: 10px;
+    margin: 20px;
 }
 
 .card-information img {
@@ -185,8 +212,13 @@ main {
 }
 
 .hipertrofia-container {
-    width: 600px;
+    width: 100%;
     padding: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
     /* background-color: #606B73; */
 }
 
@@ -195,14 +227,10 @@ main {
 }
 
 .card-hipertrofia {
-    width: 600px;
-    /* border: 1px solid #ccc; */
-    /* min-height: 100px; */
+    width: 700px;
     text-align: justify;
     text-indent: 10px;
-    /* background-color: #ccc; */
-    /* border-radius: 10px; */
-    /* padding: 10px; */
+
 }
 
 .hipertrofia-card-label {
@@ -212,10 +240,6 @@ main {
     cursor: pointer;
     display: flex;
     align-items: center;
-    /* position: relative; */
-    /* justify-content: space-between; */
-
-
 }
 
 .hipertrofia-card-label p {
@@ -229,8 +253,6 @@ main {
     height: 15px;
     display: inline-block;
     background-color: rgb(0, 140, 255);
-    
-
 }
 
 .hipertrofia-informacao-um {
@@ -239,24 +261,25 @@ main {
     overflow: hidden;
     /* border: 1px solid #ccc; */
     background-color: #252525;
-    transition: max-height 0.3s ease-in-out; /* Adicione esta linha para criar uma transição suave */
-  
+    transition: max-height 0.5s ease-in-out;
+    /* Adicione esta linha para criar uma transição suave */
+
 }
 
 #hipertrofia:checked+label+#tipo_hipertrofia {
     display: block;
-    max-height: 150px;
-    
+    max-height: 1000px;
+
 }
 
 #miofibrilar:checked+label+#tipo_miofibrilar {
     display: block;
-    max-height: 150px;
+    max-height: 1000px;
 }
 
 #sarcoplasmatica:checked+label+#tipo_sarcoplasmatica {
     display: block;
-    max-height: 150px;
+    max-height: 1000px;
 }
 
 .hipertrofia-informacao-um p {
