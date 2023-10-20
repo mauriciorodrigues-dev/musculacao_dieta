@@ -23,11 +23,13 @@
 }
 
 header {
+    width: 100vw;
     padding-inline: 16px;
     color: #fff;
     background-color: #000;
     height: 10vh;
     border-bottom: 1px solid #606B73;
+    
 
 }
 
@@ -210,7 +212,7 @@ main {
     cursor: pointer;
     display: flex;
     align-items: center;
-    position: relative;
+    /* position: relative; */
     /* justify-content: space-between; */
 
 
@@ -219,12 +221,6 @@ main {
 .hipertrofia-card-label p {
     margin-left: 40px;
     display: block;
-}
-
-.hipertrofia-card-label::after {
-    content: '+';
-    position: absolute;
-    right: 15px;
 }
 
 .hipertrofia-card-label::before {
@@ -281,7 +277,7 @@ main {
         width: 100vw;
         height: 100vh;
         background: black;
-        opacity: .89;
+        opacity: .88;
         clip-path: circle(100px at 90% -15%);
         transition: 1s ease-out;
 
