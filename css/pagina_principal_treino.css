@@ -308,9 +308,6 @@ main {
     display: none;
 }
 
-.lista {
-    display: none;
-}
 
 .wrapper-description {
     display: block;
@@ -332,6 +329,7 @@ main {
     padding: 5px;
     text-align: justify;
     margin: 2px 0;
+    display: none;
 }
 
 #iniciante:checked+label+#iniciante-wrapper {
@@ -507,15 +505,16 @@ main {
         display: none;
     }
 
-    .lista {
+    .clicavel {
         display: block;
     }
 
     .title-main-um .title-h1 {
         font-size: .45em;
-        left: 5px;
+        left: 10px;
         top: 35%;
         background-color: transparent;
+        width: 100px;
         
     }
 
