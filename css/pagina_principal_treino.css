@@ -204,6 +204,7 @@ main {
 
 .card-information img {
     width: 100px;
+    margin-right: 10px;
 }
 
 .img-principal {
@@ -263,8 +264,8 @@ main {
     padding: 10px;
     text-align: justify;
     text-indent: 10px;
-    text-align: center;
-    /* border: 1px solid #ccc; */
+    text-align: justify;
+    min-height: 100px;
 }
 
 .card-hipertrofia {
@@ -278,6 +279,7 @@ main {
     flex-direction: row-reverse;
     padding: 5px;
     align-items: center;
+    
 }
 
 .condicao {
@@ -341,6 +343,11 @@ main {
     text-align: justify;
     margin: 2px 0;
     display: none;
+}
+
+
+.paragrafo p {
+    margin-bottom: 20px;
 }
 
 #iniciante:checked+label+#iniciante-wrapper {
