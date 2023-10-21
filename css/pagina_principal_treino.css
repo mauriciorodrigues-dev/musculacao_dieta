@@ -510,11 +510,11 @@ main {
     }
 
     .title-main-um .title-h1 {
-        font-size: .45em;
+        font-size: .8em;
         left: 10px;
-        top: 35%;
+        top: 12%;
         background-color: transparent;
-        width: 100px;
+        width: 120px;
         
     }
 
