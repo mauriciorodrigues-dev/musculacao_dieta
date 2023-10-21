@@ -1,0 +1,352 @@
+<header>
+      <nav class="nav">
+        <a href="../index.html">
+          <h1><span class="red">Treino</span> e Dieta</h1>
+        </a>
+        <button class="hamburger"></button>
+        <ul class="nav-list">
+          <li><a href="#">Dieta</a></li>
+          <li><a href="#">Bioimpedância</a></li>
+          <li><a href="#">Medidas</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- <section class="menu-bar">
+        <nav><a href="#hipertrofia-page">Hipertrofia</a></nav>
+        <nav><a href="">Praticantes</a></nav>
+        <nav><a href="">Periodização</a></nav>
+      </section> -->
+      <div class="title-main-um ">
+        <div class="title-h1 fadeInLeft">
+          <h1>
+            Construindo uma <span class="red">Base</span> sólida na
+            <span class="red">Musculação</span>
+          </h1>
+        </div>
+        <div class="img-main">
+          <img
+            class="img-principal fadeInRight"
+            src="../img/foto_inicial_secundaria.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+     
+      <div class="hipertrofia-container">
+        <div class="title-secundary">
+          <h2>Hiper<span class="red">t</span>rofia</h2>
+        </div>
+        <div class="card-hipertrofia">
+          <input
+            class="chk-hipertrofia"
+            type="checkbox"
+            name="hipertrofia"
+            id="hipertrofia"
+          />
+          <label class="hipertrofia-card-label" for="hipertrofia"
+            >Você sabe o que é hipertrofia?</label
+          >
+          <div class="hipertrofia-informacao-um" id="tipo_hipertrofia">
+            <p>
+              A hipertrofia muscular é o processo de aumento no tamanho das
+              fibras musculares individuais em resposta ao treinamento de
+              resistência e outras formas de estímulo muscular. Esse fenômeno é
+              essencial para o desenvolvimento e crescimento dos músculos. A
+              hipertrofia muscular é frequentemente buscada por atletas,
+              fisiculturistas e pessoas que desejam melhorar sua força e
+              aparência física.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-hipertrofia">
+          <input
+            class="chk-hipertrofia"
+            type="checkbox"
+            name="miofibrilar"
+            id="miofibrilar"
+          />
+          <label class="hipertrofia-card-label" for="miofibrilar"
+            >Hipertrofia Miofibrilar</label
+          >
+          <div class="hipertrofia-informacao-um" id="tipo_miofibrilar">
+            <p>
+              Este tipo de hipertrofia envolve o aumento no tamanho e na
+              quantidade de miofibrilas, as unidades contráteis das fibras
+              musculares. A hipertrofia miofibrilar está mais associada ao ganho
+              de força muscular. Durante esse tipo de hipertrofia, ocorre um
+              aumento na densidade das miofibrilas, permitindo que os músculos
+              gerem mais força. Treinamentos de alta intensidade e baixas
+              repetições são frequentemente associados a esse tipo de
+              hipertrofia.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-hipertrofia">
+          <input
+            class="chk-hipertrofia"
+            type="checkbox"
+            name="sarcoplasmatica"
+            id="sarcoplasmatica"
+          />
+          <label class="hipertrofia-card-label" for="sarcoplasmatica"
+            >Hipertrofia Sarcoplasmática</label
+          >
+          <div class="hipertrofia-informacao-um" id="tipo_sarcoplasmatica">
+            <p>
+              A hipertrofia sarcoplasmática envolve o aumento do volume de
+              sarcoplasma, o fluido citoplasmático que envolve as miofibrilas.
+              Isso resulta em músculos maiores e mais cheios, mas não
+              necessariamente em ganhos significativos de força. Treinamentos
+              com repetições mais altas e menor intensidade são frequentemente
+              usados para promover a hipertrofia sarcoplasmática.
+            </p>
+          </div>
+        </div>
+        <div class="card-information">
+          <div class="img-card">
+            <img src="../img/atenção.png" alt="" />
+          </div>
+          <div class="texto-informativo">
+            <p>
+              Ambos os tipos de hipertrofia podem ser alcançados com eficácia,
+              dependendo dos objetivos individuais de treinamento e das
+              preferências pessoais. Além disso, muitas pessoas buscam uma
+              combinação de ambos os tipos para obter músculos mais fortes e
+              volumosos.
+            </p>
+          </div>
+        </div>
+        <div class="card-observacao">
+          <div class="img-observacao">
+            <img src="../img/observacao.png" alt="" />
+          </div>
+          <div class="condicao">
+            <span class="red">Progressão: </span>
+            <p>
+              É fundamental aumentar gradualmente a carga ou a intensidade do
+              treinamento ao longo do tempo para continuar desafiando os
+              músculos.
+            </p>
+
+            <span class="red">Variedade: </span>
+            <p>
+              A variação nos exercícios, conjuntos, repetições e tempos de
+              descanso pode ajudar a evitar a adaptação muscular.
+            </p>
+
+            <span class="red">Nutrição: </span>
+            <p>
+              Uma dieta equilibrada, rica em proteínas, é essencial para
+              fornecer os nutrientes necessários para o crescimento muscular.
+            </p>
+
+            <span class="red">Progressão: </span>
+            <p>
+              É fundamental aumentar gradualmente a carga ou a intensidade do
+              treinamento ao longo do tempo para continuar desafiando os
+              músculos.
+            </p>
+
+            <span class="red">Técnica Adequada: </span>
+            <p>
+              A execução correta dos exercícios é importante para maximizar o
+              estímulo sobre os músculos alvo e reduzir o risco de lesões.
+            </p>
+          </div>
+        </div>
+        <div class="card-information">
+          <div class="img-card">
+            <img src="../img/atenção.png" alt="" />
+          </div>
+          <div class="texto-informativo">
+            <p>
+              Lembre-se de que a genética individual desempenha um papel na
+              capacidade de ganhar hipertrofia e que os resultados podem variar
+              de pessoa para pessoa. É recomendável buscar orientação de um
+              profissional de educação física ou treinador pessoal para criar um
+              programa de treinamento específico para seus objetivos de
+              hipertrofia muscular.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-container-training">
+        <div class="title-secundary">
+          <h2>Ti<span class="red">p</span>os de Praticantes</h2>
+        </div>
+        <div class="card-training card-iniciante">
+          <div class="img-card"><img src="../img/iniciante.png" alt="" /></div>
+          <div class="card-title">
+            <h3><span class="red">Iniciante</span></h3>
+          </div>
+          <input
+            class="chk-wrapper"
+            type="checkbox"
+            name="iniciante"
+            id="iniciante"
+          />
+          <label class="clicavel" for="iniciante"
+            ><i class="fa-solid fa-list"></i
+          ></label>
+          <div class="wrapper-description" id="iniciante-wrapper">
+            <p>
+              <span class="red-dois">Objetivo:</span> No treino iniciante, o
+              foco principal é o desenvolvimento de uma base sólida de força,
+              resistência e técnica.
+            </p>
+            <p>
+              <span class="red-dois">Volume e Intensidade:</span> Geralmente, o
+              volume (número de séries e repetições) é menor e a intensidade
+              (carga levantada) é mais leve em comparação com níveis mais
+              avançados.
+            </p>
+            <p>
+              <span class="red-dois">Exercícios:</span> Envolve exercícios
+              básicos e compostos, como agachamento, supino, levantamento terra,
+              remada, etc.
+            </p>
+            <p>
+              <span class="red-dois">Técnica:</span> Ênfase na aprendizagem de
+              técnicas corretas de exercícios para evitar lesões e estabelecer
+              uma base sólida.
+            </p>
+            <p>
+              <span class="red-dois">Progressão:</span> A progressão é mais
+              gradual, com aumentos de carga controlados e menos variação no
+              treino.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-training card-iniciante">
+          <div class="img-card">
+            <img src="../img/intermediario.png" alt="" />
+          </div>
+          <div class="card-title">
+            <h3><span class="red">intermediario</span></h3>
+          </div>
+          <input
+            class="chk-wrapper"
+            type="checkbox"
+            name="intermediario"
+            id="intermediario"
+          />
+          <label class="clicavel" for="intermediario"
+            ><i class="fa-solid fa-list"></i
+          ></label>
+          <div class="wrapper-description" id="intermediario-wrapper">
+            <p>
+              <span class="red-dois">Objetivo:</span> Neste nível, o objetivo é
+              construir músculos e ganhar força de maneira mais substancial.
+            </p>
+            <p>
+              <span class="red-dois">Volume e Intensidade:</span> Aumento
+              gradual do volume e da intensidade. Mais séries, repetições e
+              aumento da carga.
+            </p>
+            <p>
+              <span class="red-dois">Exercícios:</span> Introdução de exercícios
+              de isolamento, focando em grupos musculares específicos.
+            </p>
+            <p>
+              <span class="red-dois">Técnica:</span> Continuação da ênfase na
+              técnica, mas mais atenção aos detalhes e aprimoramento.
+            </p>
+            <p>
+              <span class="red-dois">Progressão:</span> A progressão é mais
+              acentuada, com um planejamento de treino mais estruturado.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-training card-iniciante">
+          <div class="img-card"><img src="../img/avancado.png" alt="" /></div>
+          <div class="card-title">
+            <h3><span class="red">avançado</span></h3>
+          </div>
+          <input
+            class="chk-wrapper"
+            type="checkbox"
+            name="avancado"
+            id="avancado"
+          />
+          <label class="clicavel" for="avancado"
+            ><i class="fa-solid fa-list"></i
+          ></label>
+          <div class="wrapper-description" id="avancado-wrapper">
+            <p>
+              <span class="red-dois">Objetivo:</span> Desenvolvimento avançado
+              de força, hipertrofia muscular e aprimoramento de aspectos
+              específicos.
+            </p>
+            <p>
+              <span class="red-dois">Volume e Intensidade:</span> Volume e
+              intensidade mais altos, com métodos avançados de treinamento.
+            </p>
+            <p>
+              <span class="red-dois">Exercícios:</span> Inclusão de exercícios
+              mais avançados, variações e técnicas avançadas.
+            </p>
+            <p>
+              <span class="red-dois">Técnica:</span> Deve-se manter uma técnica
+              sólida, mas os atletas avançados podem experimentar técnicas de
+              treinamento mais intensivas.
+            </p>
+            <p>
+              <span class="red-dois">Progressão:</span> Utilização de métodos
+              avançados de periodização, como a periodização ondulatória, para
+              evitar estagnação.
+            </p>
+          </div>
+        </div>
+        <div class="title-secundary">
+          <h2 id="resume">RESUMO</h2>
+        </div>
+        <div class="card-information">
+          <div class="img-information">
+            <img src="../img/informacao.png" alt="" />
+          </div>
+          <div class="information-description">
+            <p>
+              A principal diferença entre esses níveis está na intensidade,
+              volume, complexidade dos exercícios e ênfase na técnica. À medida
+              que os praticantes de musculação progridem, eles devem aumentar
+              gradualmente a intensidade e o desafio para continuar obtendo
+              resultados. É fundamental que os atletas avançados tenham um
+              programa de treinamento bem estruturado e supervisionado para
+              garantir o progresso e evitar lesões.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="periodizacao-container">
+      <div class="title-secundary">
+        <h2>periodização de treino</h2>
+      </div>
+      <div class="card-information">
+        <div class="img-information">
+          <img src="../img/periodizacao-um.png" alt="" />
+        </div>
+        <div class="information-description paragrafo">
+          <p>
+            A periodização na musculação é uma abordagem de planejamento de treinamento que envolve a variação programada de diversos aspectos do treino ao longo do tempo. Essa estratégia é amplamente utilizada para otimizar o desempenho, prevenir a estagnação, minimizar o risco de lesões e alcançar objetivos específicos de condicionamento físico, como ganho de força, hipertrofia muscular e resistência.
+          </p>
+          <p>
+            A periodização se baseia na ideia de que o corpo humano se adapta ao estresse do treinamento. Quando você segue o mesmo programa de treinamento repetidamente, seu corpo se acostuma a ele e os ganhos de desempenho diminuem. Portanto, a periodização visa quebrar essa adaptação através da variação estratégica de diversos parâmetros de treino, como intensidade, volume, densidade e exercícios.
+          </p>
+        </div>
+      </div>
+    </div>
+    </main>
+
+    <script>
+      // alert('Página Está passando por mudanças!! Obrigado pela compreensão!!!')
+
+      const hamburger = document.querySelector(".hamburger");
+      const nav = document.querySelector(".nav");
+
+      hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+    </script>
