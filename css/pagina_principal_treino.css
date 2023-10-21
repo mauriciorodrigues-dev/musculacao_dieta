@@ -111,26 +111,75 @@ main {
 
 .title-main h1 {
     text-align: center;
+    
 }
 
 .title-main-um {
+    width: 100%;
     position: relative;
-    z-index: 0;
+    
+}
+
+.title-main-um::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%; /* Ajuste essa porcentagem para controlar a altura do gradiente transparente */
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #cccccc65);
+    pointer-events: none;
 }
 
 .title-main-um .title-h1 {
     position: absolute;
     left: 20px;
-    top: 25%;
+    top: 30%;
     background-color: transparent;
-    width: 50%;
     z-index: 0;
+    width: 350px;
+    font-size: 2em;
+    text-align: center;
 }
 
 .title-main-um .title-h1 h1 {
     background-color: transparent;
     text-align: center;
+    text-shadow: 1px 1px 5px #969393;
 }
+
+/* ANIMAÇÃO TÍTULO */
+
+.slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    }
+    @keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    } 
 /* ------------- */
 
 
@@ -146,6 +195,12 @@ main {
 .card-information img {
     width: 100px;
 }
+
+.img-principal {
+    width: 1000px;
+    /* border: 1px solid greenyellow; */
+}
+
 /* -------------- */
 
 
@@ -185,13 +240,14 @@ main {
     text-align: center;
     align-items: center;
     border: 1px solid #fff;
+    padding: 10px 0;
 }
 
 .card-information {
     display: flex;
-    
+    justify-content: space-around;
     align-items: center;
-    max-width: 700px;
+    width: 100%;
     padding: 10px;
     text-align: justify;
     text-indent: 10px;
@@ -252,11 +308,17 @@ main {
     display: none;
 }
 
-.wrapper-description {
+.lista {
     display: none;
+}
+
+.wrapper-description {
+    display: block;
     border: 1px solid #ccc;
+    border-bottom: none;
+    border-top: none;
     padding: 10px;
-    opacity: 0;
+    opacity: 1;
     /* Defina a opacidade inicial como 0 */
     transition: opacity 0.5s;
     width: 100%;
@@ -268,7 +330,7 @@ main {
 
 .clicavel {
     padding: 5px;
-    text-align: center;
+    text-align: justify;
     margin: 2px 0;
 }
 
@@ -439,6 +501,22 @@ main {
         align-items: center;
         text-align: justify;
         text-indent: 10px;
+    }
+
+    .wrapper-description {
+        display: none;
+    }
+
+    .lista {
+        display: block;
+    }
+
+    .title-main-um .title-h1 {
+        font-size: .45em;
+        left: 5px;
+        top: 35%;
+        background-color: transparent;
+        
     }
 
 }
