@@ -13,13 +13,17 @@
     color: #fff;
 }
 
+.img-main {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
 
-.header-main img {
+.img-main img {
     width: 100%;
-    margin: auto;
     height: auto;
-   
-
 }
 
 .container {
@@ -46,11 +50,8 @@
 }
 
 .header-main nav a:nth-child(4)::after {
-    content: '';
-    width: 25px;
-    height: 10px;
-    background-color: blue;
-    margin: 0 5px;
+    content: '|';
+    margin-left: 50px;
 }
 
 #hipertrofia {
@@ -67,4 +68,15 @@
 
 #tecnicas {
     background-color: rgb(251, 255, 0);
+}
+
+
+@media(max-width: 1350px) {
+    .navbar-header nav {
+        display: none;
+    }
+
+    .img-main {
+        height: auto;
+    }
 }
