@@ -21,32 +21,26 @@
     </div>
     <div class="footer"></div>
     <script>
-      // Obtém a referência do elemento que deseja colocar em tela cheia
-      var elemento = document.documentElement; // Pode ser o elemento raiz (html) para colocar a página inteira em tela cheia
+      function entrarEmTelaCheia() {
+        var elemento = document.documentElement; // Pode ser o elemento raiz (html) para colocar a página inteira em tela cheia
 
-      // Verifica a compatibilidade do navegador
-      if (elemento.requestFullscreen) {
-        elemento.requestFullscreen();
-      } else if (elemento.mozRequestFullScreen) {
-        // Firefox
-        elemento.mozRequestFullScreen();
-      } else if (elemento.webkitRequestFullscreen) {
-        // Chrome, Safari e Opera
-        elemento.webkitRequestFullscreen();
-      } else if (elemento.msRequestFullscreen) {
-        // Internet Explorer
-        elemento.msRequestFullscreen();
+        // Verifica a compatibilidade do navegador
+        if (elemento.requestFullscreen) {
+          elemento.requestFullscreen();
+        } else if (elemento.mozRequestFullScreen) {
+          // Firefox
+          elemento.mozRequestFullScreen();
+        } else if (elemento.webkitRequestFullscreen) {
+          // Chrome, Safari e Opera
+          elemento.webkitRequestFullscreen();
+        } else if (elemento.msRequestFullscreen) {
+          // Internet Explorer
+          elemento.msRequestFullscreen();
+        }
       }
 
-      if (document.exitFullscreen) {
-        document.exitFullscreen();
-      } else if (document.mozCancelFullScreen) {
-        document.mozCancelFullScreen();
-      } else if (document.webkitExitFullscreen) {
-        document.webkitExitFullscreen();
-      } else if (document.msExitFullscreen) {
-        document.msExitFullscreen();
-      }
+      // Chama a função para entrar em tela cheia quando a página é carregada
+      window.onload = entrarEmTelaCheia;
     </script>
   </body>
 </html>
