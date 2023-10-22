@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treino e Dieta | Principal</title>
+    <link rel="stylesheet" href="../css/home.css" />
+    <script
+      src="https://kit.fontawesome.com/fc1d6ae1da.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="../img/favIcon_musculacao.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <h1>Treino e <span class="red">Dieta</span></h1>
+
+        <button class="hamburger"></button>
+        <ul class="nav-list">
+          <li><a href="../html/pagina_inicial_treino.html">Treino</a></li>
+          <li><a href="#">Dieta</a></li>
+          <li><a href="#">Bioimpedância</a></li>
+          <li><a href="#">Medidas</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="title">
+        <h2>Beneficios da <span class="red">Musculação</span></h2>
+      </div>
+      <div class="card-attention">
+        <img src="../img/workout.png" alt="" />
+
+        <div class="text-atention">
+          <p>
+            A musculação é uma forma de exercício físico que envolve o uso de resistência para desenvolver e fortalecer os músculos do corpo. Ela desempenha um papel fundamental na promoção da saúde e do bem-estar, sendo importante por diversas razões:
+          </p>
+        </div>
+      </div>
+      <div class="card-container">
+        <!-- Card UM -->
+        <div class="card-benefits">
+          <div class="img-benefit">
+            <img src="../img/desenvolvimento-muscular.png" alt="" />
+          </div>
+          <div class="text-benefit">
+            <button class="btn-benefit" id="modal-1">
+              Desenvolvimento Muscular
+            </button>
+          </div>
+          <dialog class="modal-benefits fadeIn" id="desenv-musc">
+            <div class="information">
+              <img src="../img/info.png" alt="">
+            </div>
+            <h3>Desenvolvimento <span class="red">Muscular</span></h3>
+            <p>
+              A musculação é uma das formas mais eficazes de aumentar a massa
+              muscular e força. Isso é benéfico não apenas para atletas e
+              fisiculturistas, mas também para indivíduos comuns, pois ajuda a
+              melhorar a capacidade funcional do corpo, tornando as atividades
+              diárias mais fáceis.
+            </p>
+            <button class="btn-close" id="closeModal">OK</button>
+          </dialog>
+        </div>
+        <!-- Card DOIS -->
+        <div class="card-benefits">
+          <div class="img-benefit">
+            <img src="../img/perda de peso.png" alt="" />
+          </div>
+          <div class="text-benefit">
+            <button class="btn-benefit" id="modal-2">Metabolismo e perda de peso</button>
+          </div>
+          <dialog class="modal-benefits fadeIn" id="perda-peso">
+            <div class="information">
+              <img src="../img/info.png" alt="">
+            </div>
+            <h3>Metabolismo e <span class="red">Perda de Peso</span></h3>
+            <p>
+              O aumento da massa muscular acelera o metabolismo, tornando mais
+              fácil a queima de calorias. Isso pode ajudar no controle de peso e
+              na perda de gordura, uma vez que os músculos consomem mais energia
+              em repouso do que a gordura.
+            </p>
+            <button class="btn-close" id="closeModalDois">OK</button>
+          </dialog>
+        </div>
+        <!-- Card TRES -->
+        <div class="card-benefits">
+          <div class="img-benefit">
+            <img src="../img/lesao.png" alt="" />
+          </div>
+          <div class="text-benefit">
+            <button class="btn-benefit" id="modal-3">Prevenção de lesões</button>
+          </div>
+          <dialog class="modal-benefits fadeIn" id="preven-lesao">
+            <div class="information">
+              <img src="../img/info.png" alt="">
+            </div>
+            <h3>Prevenção de <span class="red">Lesões</span></h3>
+            <p>
+              O fortalecimento dos músculos e articulações reduz o risco de
+              lesões, pois melhora a estabilidade e o suporte ao corpo. Isso é
+              especialmente importante à medida que envelhecemos, para prevenir
+              quedas e fraturas.
+            </p>
+            <button class="btn-close" id="closeModalTres">OK</button>
+          </dialog>
+        </div>
+
+        <!-- Card Quatro -->
+        <div class="card-benefits">
+          <div class="img-benefit">
+            <img src="../img/saude-ossea.png" alt="" />
+          </div>
+          <div class="text-benefit">
+            <button class="btn-benefit" id="modal-4">Saúde óssea</button>
+          </div>
+          <dialog class="modal-benefits fadeIn" id="saude-ossea">
+            <div class="information">
+              <img src="../img/info.png" alt="">
+            </div>
+            <h3>Saúde <span class="red">Óssea</span></h3>
+            <p>
+              A musculação também é benéfica para a saúde óssea, pois aumenta a
+              densidade mineral óssea e reduz o risco de osteoporose. Isso é
+              especialmente relevante para mulheres na pós-menopausa.
+            </p>
+            <button class="btn-close" id="closeModalQuatro">OK</button>
+          </dialog>
+        </div>
+
+
+        <!-- Card-Cinco -->
+        <div class="card-benefits">
+          <div class="img-benefit">
+            <img src="../img/hormonio.png" alt="" />
+          </div>
+          <div class="text-benefit">
+            <button class="btn-benefit" id="modal-5">Equilíbrio hormonal</button>
+          </div>
+          <dialog class="modal-benefits fadeIn" id="equil-horm">
+            <div class="information">
+              <img src="../img/info.png" alt="">
+            </div>
+            <h3>Equilíbrio <span class="red">Hormonal</span></h3>
+            <p>
+              O exercício de resistência, como a musculação, ajuda a regular os
+              níveis hormonais, como a insulina e o hormônio do crescimento, o
+              que pode ter efeitos positivos na composição corporal e na saúde
+              em geral.
+            </p>
+            <button class="btn-close" id="closeModalCinco">OK</button>
+          </dialog>
+        </div>
+
+        <div class="card-benefits">
+          <div class="img-benefit">
+            <img src="../img/coracao.png" alt="" />
+          </div>
+          <div class="text-benefit">
+            <button class="btn-benefit" id="modal-6">Saúde cardiovascular</button>
+          </div>
+          <dialog class="modal-benefits  fadeIn" id="saude-cardiov">
+            <div class="information">
+              <img src="../img/info.png" alt="">
+            </div>
+            <h3>Saúde <span class="red">Cardiovascular</span></h3>
+            <p>
+              A musculação pode contribuir para a saúde cardiovascular quando
+              realizada de maneira adequada, pois aumenta a capacidade de
+              bombeamento do coração, melhora a circulação sanguínea e ajuda a
+              reduzir a pressão arterial.
+            </p>
+            <button class="btn-close" id="closeModalSeis">OK</button>
+          </dialog>
+        </div>
+
+        <div class="card-benefits">
+          <div class="img-benefit">
+            <img src="../img/meditacao.png" alt="" />
+          </div>
+          <div class="text-benefit">
+            <button class="btn-benefit" id="modal-7">Saúde mental</button>
+          </div>
+          <dialog class="modal-benefits fadeIn" id="saude-mental">
+            <div class="information">
+              <img src="../img/info.png" alt="">
+            </div>
+            <h3>Saúde <span class="red">Mental</span></h3>
+            <p>
+              Além dos benefícios físicos, a musculação também promove a
+              liberação de endorfinas, neurotransmissores que proporcionam uma
+              sensação de bem-estar e reduzem o estresse e a ansiedade. Além
+              disso, a conquista de metas de treinamento pode aumentar a
+              autoestima e a confiança.
+            </p>
+            <button class="btn-close" id="closeModalSete">OK</button>
+          </dialog>
+        </div>
+
+        <div class="card-benefits">
+          <div class="img-benefit">
+            <img src="../img/postura.png" alt="" />
+          </div>
+          <div class="text-benefit">
+            <button class="btn-benefit" id="modal-8">Melhora da postura</button>
+          </div>
+          <dialog class="modal-benefits fadeIn" id="melhor-post">
+            <div class="information">
+              <img src="../img/info.png" alt="">
+            </div>
+            <h3>Melhora da <span class="red">Postura</span></h3>
+            <p>
+              O fortalecimento dos músculos das costas, ombros e núcleo pode
+              ajudar a corrigir problemas de postura, aliviando dores nas costas
+              e melhorando a qualidade de vida.
+            </p>
+            <button class="btn-close" id="closeModalOito">OK</button>
+          </dialog>
+        </div>
+      </div>
+      <div class="card-attention">
+        <img src="img/atenção.png" alt="" />
+
+        <div class="text-atention">
+          <p>
+            É importante ressaltar que a musculação deve ser realizada de
+            maneira segura e supervisionada, de preferência por um profissional
+            qualificado, como um personal trainer, para garantir que os
+            exercícios sejam realizados de forma adequada e que o programa seja
+            adaptado às necessidades e objetivos individuais. Também é essencial
+            dar ao corpo o tempo de recuperação adequado entre os treinos para
+            evitar lesões. Em resumo, a musculação desempenha um papel crucial
+            na promoção da saúde e do bem-estar geral, oferecendo benefícios
+            físicos e mentais significativos.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>Desenvolvido Por Mauricio - 2023</footer>
+    <script src="../js/modal.js"></script>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const nav = document.querySelector(".nav");
+
+      hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+    </script>
+  </body>
+</html>
