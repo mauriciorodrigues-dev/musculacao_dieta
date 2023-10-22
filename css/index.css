@@ -10,7 +10,7 @@
 
 .gradiente {
     width: 100vw;
-    height: 80vh;
+    min-height: 80vh;
     background-color: #000000ef;
     color: #ffffff;
     font-size: 2em;
@@ -22,6 +22,10 @@
     gap: 50px;
 }
 
+
+.gradient-main {
+    overflow: hidden; /* Adicione overflow: hidden; para esconder o conteúdo excedente */
+}
 a {
     text-decoration: none;
     color: rgb(250, 248, 248);
