@@ -8,15 +8,45 @@
   </head>
   <body>
     <div class="gradient-main">
-        <div class="header"></div>
-        <div class="gradiente">
-            <img class="fadeInLeft" src="img/initial.png" alt="">
-            <div class="fadeInRight">
-                <h1>Treino e Dieta</h1>
-            </div>
-            <a class="flash" href="html/pagina_inicial.html">Clique aqui Para Acessar</a>
+      <div class="header"></div>
+      <div class="gradiente">
+        <img class="fadeInLeft" src="img/initial.png" alt="" />
+        <div class="fadeInRight">
+          <h1>Treino e Dieta</h1>
         </div>
+        <a class="flash" href="html/pagina_inicial.html"
+          >Clique aqui Para Acessar</a
+        >
+      </div>
     </div>
     <div class="footer"></div>
+    <script>
+      // Obtém a referência do elemento que deseja colocar em tela cheia
+      var elemento = document.documentElement; // Pode ser o elemento raiz (html) para colocar a página inteira em tela cheia
+
+      // Verifica a compatibilidade do navegador
+      if (elemento.requestFullscreen) {
+        elemento.requestFullscreen();
+      } else if (elemento.mozRequestFullScreen) {
+        // Firefox
+        elemento.mozRequestFullScreen();
+      } else if (elemento.webkitRequestFullscreen) {
+        // Chrome, Safari e Opera
+        elemento.webkitRequestFullscreen();
+      } else if (elemento.msRequestFullscreen) {
+        // Internet Explorer
+        elemento.msRequestFullscreen();
+      }
+
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+      } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+      }
+    </script>
   </body>
 </html>
