@@ -9,23 +9,22 @@
 
 
 .gradiente {
-    width: 100vw;
     min-height: 100vh;
+    width: 100vw;
     background-color: #000000ef;
     color: #ffffff;
     font-size: 2em;
     text-align: center;
+    border: 1px solid red;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-
-    
+    justify-content: space-around;
 }
 
 
 .gradient-main {
-    overflow: hidden; /* Adicione overflow: hidden; para esconder o conteúdo excedente */
+   overflow: hidden;  /* Adicione overflow: hidden; para esconder o conteúdo excedente */
 }
 a {
     text-decoration: none;
