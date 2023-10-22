@@ -21,7 +21,7 @@
     </div>
     <div class="footer"></div>
     <script>
-      function entrarEmTelaCheia() {
+      document.addEventListener("DOMContentLoaded", function () {
         var elemento = document.documentElement; // Pode ser o elemento raiz (html) para colocar a página inteira em tela cheia
 
         // Verifica a compatibilidade do navegador
@@ -37,10 +37,7 @@
           // Internet Explorer
           elemento.msRequestFullscreen();
         }
-      }
-
-      // Chama a função para entrar em tela cheia quando a página é carregada
-      window.onload = entrarEmTelaCheia;
+      });
     </script>
   </body>
 </html>
