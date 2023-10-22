@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 
@@ -28,8 +28,8 @@
 }
 a {
     text-decoration: none;
-    color: rgb(250, 248, 248);
-    font-size: 16px;
+    color: rgb(5, 189, 245);
+    font-size: 20px;
     border: 1px solid #faf9f9;
     padding: 10px;
     border-radius: 10px;
@@ -116,6 +116,7 @@ h1 {
     animation-duration: 3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+    margin: 40px;
 }
 
 @-webkit-keyframes fadeInRight {
@@ -150,11 +151,11 @@ h1 {
 .flash {
     -webkit-animation-name: flash;
     animation-name: flash;
-    -webkit-animation-duration: .5s;
-    animation-duration: .5s;
+    -webkit-animation-duration: .1s;
+    animation-duration: .1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    animation: flash 10s infinite;
+    animation: flash 3s infinite;
 }
 
 @-webkit-keyframes flash {
