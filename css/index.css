@@ -10,7 +10,7 @@
 
 .gradiente {
     width: 100vw;
-    min-height: 80vh;
+    min-height: 100vh;
     background-color: #000000ef;
     color: #ffffff;
     font-size: 2em;
@@ -63,19 +63,19 @@ h1 {
     }
 }
 
-.header,
+/* .header,
 .footer {
     width: 100%;
     height: 10vh;
     background-color: #252121;
-}
+} */
 
 
 .fadeInLeft {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
@@ -111,8 +111,8 @@ h1 {
 .fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
