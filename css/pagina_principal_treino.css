@@ -9,29 +9,41 @@
     scroll-behavior: smooth;
 }
 
+header {
+    background-color: black;
+    height: 100vh;
+}
+
 .header-main {
     color: #fff;
 }
 
 .img-main {
-  display: flex;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .img-main img {
     width: 100%;
     height: auto;
+    
 }
 
 .container {
     min-height: 100vh;
     padding-top: 7vh;
+    background-color: black;
+    color: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
-.navbar-header  {
+.navbar-header {
     background-color: rgb(143, 6, 6);
     height: 5vh;
     display: flex;
@@ -40,6 +52,7 @@
     position: fixed;
     left: 0;
     width: 100%;
+    border-bottom: 1px solid #000000;
 }
 
 .header-main nav a {
@@ -54,26 +67,21 @@
     margin-left: 50px;
 }
 
-#hipertrofia {
-    background-color: blue;
-}
+/* EFEITO GRADIENTE */
 
-#praticante {
-    background-color: rgb(234, 0, 255);
+#praticante, #tecnicas {
+    background-color: rgb(143, 6, 6);
+    color: rgb(252, 252, 252);
 }
-
-#periodizacao {
-    background-color: rgb(0, 255, 42);
-}
-
-#tecnicas {
-    background-color: rgb(251, 255, 0);
-}
-
 
 @media(max-width: 1350px) {
+    header {
+        height: auto;
+    }
+
     .navbar-header nav {
         display: none;
+        height: 10vh;
     }
 
     .img-main {
