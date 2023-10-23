@@ -5,42 +5,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
 
 header {
     background-color: black;
-    height: 100vh;
+    height: auto;
+    width: 100%;
 }
 
 .header-main {
     color: #fff;
-}
-
-.img-main {
-    display: flex;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.img-main img {
-    width: 100%;
-    height: auto;
-    
-}
-
-.container {
-    min-height: 100vh;
-    padding-top: 7vh;
-    background-color: black;
-    color: #fff;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
 }
 
 .navbar-header {
@@ -66,6 +42,75 @@ header {
     content: '|';
     margin-left: 50px;
 }
+
+.img-main {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 7vh;
+    background-color: black;
+    color: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-hipertrofia {
+    max-width: 800px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.title-description {
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: max(2em, 1vw);
+}
+
+.descricao {
+    width: 100%;
+}
+
+.video-explicativo {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.video-explicativo .video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video-explicativo .video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
 
 /* EFEITO GRADIENTE */
 
